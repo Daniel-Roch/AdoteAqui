@@ -49,7 +49,8 @@ a{
     color: white;
     font-size: 25px;
 }
-.nave ul a::after{
+.nave ul li::after{
+    margin: 10px;
     content: "🐶";
 }
 .div-pag{
@@ -126,10 +127,9 @@ a{
     }
     .nave ul{
         display: flex;
-        flex-flow: column center;
-        flex-direction: column;
+        flex-flow: column wrap;
         text-align: center;
-        padding: 0 400px;
+        padding: 0 100vh;
         margin-top: 5px;
     }
     .img-perf{
@@ -139,5 +139,8 @@ a{
         border: 2px solid rgb(247, 243, 26);
         border-radius: 450px;
         margin: 0px;
+    }
+    .nave li{
+        font-size: 30px;
     }
 }

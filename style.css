@@ -1,9 +1,9 @@
 *{
     margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    padding: 0px;   
     font-family: Arial;
     font-size: 22px;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -115,7 +115,7 @@ a{
     width: 150px;
 }
 
-@media all and (max-width: 500px){   /* Ao encurtar a pagina para o tamanho de 700px, ele ira sumir com a logo e deixar a lista em coluna*/
+@media screen and (max-width: 420px){   /* Ao encurtar a pagina para o tamanho de 700px, ele ira sumir com a logo e deixar a lista em coluna*/
     .container {
         display: flex;
         flex-direction: column;
@@ -127,9 +127,9 @@ a{
     }
     .nave ul{
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: column;
         text-align: center;
-        padding: 0 100vh;
+        padding: 0 108px;
         margin-top: 5px;
     }
     .img-perf{

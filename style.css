@@ -98,10 +98,10 @@ body{
     height: 500px;
 }
 .conjunto-imagens li{
-    transition: padding 1s;
+    transition: 2s all;
 }
 .conjunto-imagens li:hover{
-    padding: 10px 5px 10px 10px;
+    transform: scale(1.1);
 }
 .pag-final{
     display: flex;

@@ -8,6 +8,9 @@
 a{
     text-decoration: none;
 }
+body{
+    background: url(https://a-static.mlcdn.com.br/618x463/papel-de-parede-adesivo-animais-pet-shop-cachorros-n4357-lar-adesivos/laradesivos/4357/7950738aaf03895f9e02fbf74df62d5a.jpg);
+}
 .container{
     display: flex;
     justify-content: space-between;
